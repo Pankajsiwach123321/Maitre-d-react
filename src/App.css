@@ -514,6 +514,7 @@ input:checked+.slider:before {
     border-bottom: 1px black solid;
     padding-bottom: 15px;
     width: 100%;
+    resize: none ;
 }
 
 .gap-30 {
@@ -664,7 +665,10 @@ input:checked+.slider:before {
 .max-443 {
     max-width: 443px;
 }
-.pt-2pc{padding-top: 2pc;}
+
+.pt-2pc {
+    padding-top: 2pc;
+}
 
 .max-618 {
     max-width: 618px;
@@ -685,16 +689,12 @@ input:checked+.slider:before {
         flex-direction: column;
         align-items: center;
         z-index: 3;
-
-
     }
 
     label[for="iconbar"]>span {
         width: 100%;
         height: 5px;
         background: linear-gradient(97deg, #FD9B2B 13.58%, #F14F09 86.99%);
-
-
     }
 
     .menubar {
